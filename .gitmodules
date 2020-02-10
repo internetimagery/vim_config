@@ -2,3 +2,7 @@
 	path = vendor/onehalf
 	url = https://github.com/sonph/onehalf.git
 	branch = master
+[submodule "vendor/vim-sensible"]
+	path = vendor/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+	branch = master
