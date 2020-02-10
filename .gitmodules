@@ -1,0 +1,4 @@
+[submodule "vendor/onehalf"]
+	path = vendor/onehalf
+	url = https://github.com/sonph/onehalf.git
+	branch = master
