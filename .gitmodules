@@ -14,3 +14,7 @@
 	path = pack/theme/opt/onehalf
 	url = https://github.com/sonph/onehalf.git
 	branch = master
+[submodule "pack/base/start/vim-sensible"]
+	path = pack/base/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+	branch = master
