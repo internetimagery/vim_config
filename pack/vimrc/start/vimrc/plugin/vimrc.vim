@@ -12,6 +12,9 @@ nnoremap <silent> # #zz
 nnoremap <silent> g* g*zz
 
 
+" FileTypes
+autocmd BufRead,BufNewFile wscript setfiletype python
+
 " Theme!
 set runtimepath^=~/.vim/pack/theme/opt/onehalf/vim	" Need to add due to non-standard repo structure
 colorscheme onehalfdark					" Set the theme
