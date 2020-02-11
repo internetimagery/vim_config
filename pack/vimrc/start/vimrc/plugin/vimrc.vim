@@ -56,6 +56,7 @@ set t_vb=
 set tm=500
 set ignorecase                  			" ignore case when searching
 set smartcase                   			" no ignorecase if Uppercase char present
+set path+=**						" Include all files in search path (fuzzy search)
 
 " Strip extra whitespace
 autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
