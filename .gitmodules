@@ -6,3 +6,11 @@
 	path = vendor/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
 	branch = master
+[submodule "pack/onehalf"]
+	path = pack/onehalf
+	url = https://github.com/sonph/onehalf.git
+	branch = master
+[submodule "pack/theme/opt/onehalf"]
+	path = pack/theme/opt/onehalf
+	url = https://github.com/sonph/onehalf.git
+	branch = master
