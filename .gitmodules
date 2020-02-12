@@ -6,3 +6,7 @@
 	path = pack/base/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
 	branch = master
+[submodule "pack/theme/start/vim-airline"]
+	path = pack/theme/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+	branch = master

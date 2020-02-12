@@ -25,6 +25,9 @@ if exists('+termguicolors')
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
+let g:airline_section_x = ''
+let g:airline_section_y = ''
+let g:airline_section_z = ''
 
 
 " GUI
@@ -36,7 +39,6 @@ augroup numbertoggle
   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
-set shortmess=atI					" Simple status bar
 set scrolloff=7                 			" keep 3 lines when scrolling
 set showcmd                     			" display incomplete commands
 set showmode                    			" display current modes
@@ -44,7 +46,7 @@ set showmatch                   			" jump to matches when entering parentheses
 set matchtime=2                 			" tenths of a second to show the matching parenthesis
 set hlsearch                    			" highlight searches
 set incsearch                   			" do incremental searching, search as you type
-
+set laststatus=2					" Keep status line below
 
 " System
 set nocompatible                			" Don't bother with vi compatibility
