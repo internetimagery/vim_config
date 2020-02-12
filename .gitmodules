@@ -10,3 +10,7 @@
 	path = pack/theme/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 	branch = master
+[submodule "pack/base/start/fugitive"]
+	path = pack/base/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+	branch = master

@@ -25,7 +25,7 @@ if exists('+termguicolors')
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
-let g:airline_section_x = ''
+let g:airline_section_x = ''				" Disable excess information
 let g:airline_section_y = ''
 let g:airline_section_z = ''
 
@@ -58,11 +58,10 @@ set nobackup						" do not keep a backup file
 set novisualbell					" turn off visual bell
 set noerrorbells					" don't beep
 set visualbell t_vb=					" turn off error beep/flash
-set t_vb=
 set tm=500
 set ignorecase                  			" ignore case when searching
-set smartcase                   			" no ignorecase if Uppercase char present
-set path+=**						" Include all files in search path (fuzzy search)
+set smartcase                   			" Case sensitive is search includes uppercase letter
+set path+=**						" Include all files in search path (fuzzy search lite)
 
 " Strip extra whitespace
 autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
