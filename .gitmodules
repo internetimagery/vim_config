@@ -14,3 +14,7 @@
 	path = pack/base/start/fugitive
 	url = https://tpope.io/vim/fugitive.git
 	branch = master
+[submodule "pack/base/start/ale"]
+	path = pack/base/start/ale
+	url = https://github.com/dense-analysis/ale.git
+	branch = master
