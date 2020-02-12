@@ -55,8 +55,7 @@ set autoread                    			" Reload files when changed on disk, i.e. via
 set magic						" For regular expressions turn magic on
 set title						" change the terminal's title
 set nobackup						" do not keep a backup file
-set novisualbell					" turn off visual bell
-set noerrorbells					" don't beep
+set novisualbell noerrorbells				" turn off visual bell
 set visualbell t_vb=					" turn off error beep/flash
 set tm=500
 set ignorecase                  			" ignore case when searching
