@@ -49,6 +49,7 @@ set incsearch                   			" do incremental searching, search as you typ
 set laststatus=2					" Keep status line below
 
 " System
+set hidden						" Allow swapping of buffers with changes, without nagging.
 set mouse=a						" Enable mouse support
 set nocompatible                			" Don't bother with vi compatibility
 set autoread                    			" Reload files when changed on disk, i.e. via `git checkout`
