@@ -63,6 +63,9 @@ set ignorecase                  			" ignore case when searching
 set smartcase                   			" Case sensitive is search includes uppercase letter
 set path+=**						" Include all files in search path (fuzzy search lite)
 
+" Enable smart switching between constructs (eg html tags etc) (built in plugin)
+runtime macros/matchit.vim
+
 " Strip extra whitespace
 autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 fun! <SID>StripTrailingWhitespaces()
