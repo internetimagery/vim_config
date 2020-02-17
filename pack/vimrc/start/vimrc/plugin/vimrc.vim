@@ -62,6 +62,8 @@ set tm=500
 set ignorecase                  			" ignore case when searching
 set smartcase                   			" Case sensitive is search includes uppercase letter
 set path+=**						" Include all files in search path (fuzzy search lite)
+autocmd CursorHoldI * stopinsert 			" Drop out of insert mode after 4 seconds idle
+
 
 " Enable smart switching between constructs (eg html tags etc) (built in plugin)
 runtime macros/matchit.vim
