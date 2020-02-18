@@ -22,3 +22,7 @@
 	path = pack/base/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 	branch = master
+[submodule "pack/theme/start/flatwhite-vim"]
+	path = pack/theme/start/flatwhite-vim
+	url = https://github.com/woodyZootopia/flatwhite-vim.git
+	branch = master
