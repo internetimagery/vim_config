@@ -26,3 +26,7 @@
 	path = pack/theme/start/flatwhite-vim
 	url = https://github.com/woodyZootopia/flatwhite-vim.git
 	branch = master
+[submodule "pack/base/start/vim-visual-star-search"]
+	path = pack/base/start/vim-visual-star-search
+	url = https://github.com/bronson/vim-visual-star-search.git
+	branch = master
