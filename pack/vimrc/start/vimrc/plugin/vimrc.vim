@@ -47,6 +47,10 @@ set matchtime=2                 			" tenths of a second to show the matching par
 set hlsearch                    			" highlight searches
 set incsearch                   			" do incremental searching, search as you type
 set laststatus=2					" Keep status line below
+let g:netrw_banner = 0					" Remove top banner on directory views
+let g:netrw_liststyle = 3				" Display folders in a tree view
+let ghregex='\(^\|\s\s\)\zs\.\S\+'			" Hide dotfiles by default, see...
+let g:netrw_list_hide=ghregex				" ...https://vi.stackexchange.com/a/18678
 
 " System
 set hidden						" Allow swapping of buffers with changes, without nagging.
