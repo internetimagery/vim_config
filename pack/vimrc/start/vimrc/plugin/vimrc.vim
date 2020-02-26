@@ -57,6 +57,7 @@ set hidden						" Allow swapping of buffers with changes, without nagging.
 set mouse=a						" Enable mouse support
 set nocompatible                			" Don't bother with vi compatibility
 set autoread                    			" Reload files when changed on disk, i.e. via `git checkout`
+autocmd BufEnter * :checktime				" Check if files need reloading when swapping buffer
 set magic						" For regular expressions turn magic on
 set title						" change the terminal's title
 set nobackup						" do not keep a backup file
