@@ -30,3 +30,7 @@
 	path = pack/base/start/vim-visual-star-search
 	url = https://github.com/bronson/vim-visual-star-search.git
 	branch = master
+[submodule "pack/base/start/vim-unimpaired"]
+	path = pack/base/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+	branch = master
