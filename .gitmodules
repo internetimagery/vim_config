@@ -37,3 +37,6 @@
 [submodule "pack/base/start/vim-commentary"]
 	path = pack/base/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/base/start/vim-indent-object"]
+	path = pack/base/start/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
