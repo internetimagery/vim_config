@@ -34,3 +34,6 @@
 	path = pack/base/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
 	branch = master
+[submodule "pack/base/start/vim-commentary"]
+	path = pack/base/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
