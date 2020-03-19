@@ -44,3 +44,7 @@
 	path = pack/base/start/grep
 	url = https://github.com/yegappan/grep.git
 	branch = master
+[submodule "pack/base/start/golden-ratio"]
+	path = pack/base/start/golden-ratio
+	url = https://github.com/roman/golden-ratio.git
+	branch = master
