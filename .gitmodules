@@ -40,3 +40,7 @@
 [submodule "pack/base/start/vim-indent-object"]
 	path = pack/base/start/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object.git
+[submodule "pack/base/start/grep"]
+	path = pack/base/start/grep
+	url = https://github.com/yegappan/grep.git
+	branch = master
