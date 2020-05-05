@@ -48,3 +48,11 @@
 	path = pack/base/start/golden-ratio
 	url = https://github.com/roman/golden-ratio.git
 	branch = master
+[submodule "pack/base/start/repeat"]
+	path = pack/base/start/repeat
+	url = https://tpope.io/vim/repeat.git
+	branch = master
+[submodule "pack/base/start/vim-abolish"]
+	path = pack/base/start/vim-abolish
+	url = https://github.com/tpope/vim-abolish.git
+	branch = master
