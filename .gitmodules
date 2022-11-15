@@ -56,3 +56,6 @@
 	path = pack/base/start/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 	branch = master
+[submodule "pack/base/start/coconut.vim"]
+	path = pack/base/start/coconut.vim
+	url = https://github.com/manicmaniac/coconut.vim.git
