@@ -14,6 +14,8 @@ nnoremap <silent> g* g*zz
 
 " FileTypes
 autocmd BufRead,BufNewFile wscript setfiletype python
+filetype on
+filetype plugin indent on
 
 " Theme!
 set runtimepath^=~/.vim/pack/theme/opt/onehalf/vim	" Need to add due to non-standard repo structure

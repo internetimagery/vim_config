@@ -59,3 +59,7 @@
 [submodule "pack/base/start/coconut.vim"]
 	path = pack/base/start/coconut.vim
 	url = https://github.com/manicmaniac/coconut.vim.git
+[submodule "pack/base/start/purescript-vim"]
+	path = pack/base/start/purescript-vim
+	url = https://github.com/purescript-contrib/purescript-vim.git
+	branch = main
